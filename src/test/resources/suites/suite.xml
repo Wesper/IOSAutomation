@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM 'http://testng.org/testng-1.0.dtd'>
+<suite name = "Main suite" verbose = "1">
+    <test name="Main test">
+        <classes>
+            <class name="TestExample"></class>
+        </classes>
+    </test>
+    <parameter name = "version" value = "2.7.50278-r-2019-12-12" />
+</suite>
